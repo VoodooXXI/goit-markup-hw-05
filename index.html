@@ -65,7 +65,7 @@
       <!--<div class="background-img">-->
         <div class="hero-container container">
           <h1 class="hero-title">EFFECTIVE SOLUTIONS FOR YOUR BUSINESS</h1>
-          <button class="button-order" type="button">Request our service</button>
+          <button class="button-order" data-modal-open type="button">Request our service</button>
         <!--</div>-->
         </div>
     </section>
@@ -121,13 +121,19 @@
         <h2 class="title">What we do</h2>
          <ul class="specialization-list">
           <li>
-            <img src="./images/workdesk1.jpg" alt="office image" width="370" />
+            <img src="./images/workdesk1.jpg" alt="office image" width="370" height="294"/>
+            <p class="specification-description">desktop apps
+            </p>
           </li>
           <li>
-            <img src="./images/workdesk2.jpg" alt="office image" width="370" />
+            <img src="./images/workdesk2.jpg" alt="office image" width="370" height="294"/>
+            <p class="specification-description">mobile apps
+            </p>
           </li>
           <li>
-            <img src="./images/workdesk3.jpg" alt="office image" width="370" />
+            <img src="./images/workdesk3.jpg" alt="office image" width="370" height="294"/>
+            <p class="specification-description">design solutions
+            </p>
           </li>
         </ul>
       </div>
@@ -395,5 +401,18 @@
       </div>
     </div>
   </footer>
+<!--modal-->
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button class="btn-modal-close" data-modal-close>
+          <svg class="close-icon" width="30" height="30">
+            <use href="./images/typical-icons.svg#icon-close"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+<script src="./js/modal.js"></script>
+
 </body>
 </html>
