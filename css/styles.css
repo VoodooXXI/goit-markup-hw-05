@@ -406,7 +406,19 @@ index main ==============================================================
   position: absolute;
   left: 0;
   bottom: 0;
-  padding: 27px 112px;
+  padding: 27px 132px;
+  width: 100%;
+  text-transform: uppercase;
+  line-height: 1.14;
+  text-align: center;
+  color: var(--main-light-color);
+  background-color: var(--specialization-description-color);
+}
+.specification-description2 {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  padding: 27px 118px;
   width: 100%;
   text-transform: uppercase;
   line-height: 1.14;
@@ -445,6 +457,7 @@ index main ==============================================================
   font-size: 16px;
   line-height: 1.19;
   margin-bottom: 10px;
+  margin-top: 30px;
 }
 .team-text {
   font-weight: 400;
