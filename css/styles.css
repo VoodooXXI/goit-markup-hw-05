@@ -612,6 +612,7 @@ index main ==============================================================
   position: absolute;
   display: inline-block;
   bottom: 0;
+  margin: 0px;
   width: 100%;
   height: 100%;
   padding: 63px 24px;
