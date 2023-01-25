@@ -237,9 +237,7 @@ header .logo {
   color: var(--brand-color);
 }
 
-/*
-index main ==============================================================
-*/
+/********index main*********/
 
 /*hero*/
 
@@ -414,19 +412,6 @@ index main ==============================================================
   color: var(--main-light-color);
   background-color: var(--specialization-description-color);
 }
-
-/*.specification-description2 {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  padding: 27px;
-  width: 100%;
-  text-transform: uppercase;
-  line-height: 1.14;
-  text-align: center;
-  color: var(--main-light-color);
-  background-color: var(--specialization-description-color);
-}*/
 
 /*team*/
 
@@ -623,6 +608,7 @@ index main ==============================================================
   background-color: var(--overlay-card-color);
   transform: translateY(101%);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  font-weight: 400;
 }
 
 /*.overlay-text:hover,*/
